@@ -16,7 +16,7 @@
     <div class="main">
 
         <form onsubmit="return false" class="form">
-            <label id="pl" ><input id="place"   type="text" placeholder="Enter the name of the location" required>
+            <label id="pl" ><input id="place"   type="text" placeholder="Enter the location" required>
             </label>
             <button type="submit" onclick="getData()">Click to Enter</button>
 
@@ -27,10 +27,12 @@
                 <tr>
                     <th>Min Temp(&#8451)</th>
                     <th>Max Temp(&#8451)</th>
+                    <th>Humidity(%)</th>
                 </tr>
                 <tr>
                     <td id="min"></td>
                     <td id="max"></td>
+                    <td id="humid"></td>
 
                 </tr>
                 <tr>

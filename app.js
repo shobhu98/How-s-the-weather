@@ -16,8 +16,10 @@ function getData() {
             // document.createElement('p').innerHTML=data.main.temp;
          let x =Math.round(data.main.temp_min-273.99999999999999999999999999);
          let y=Math.round(data.main.temp_max-273);
-            document.getElementById('min').innerHTML=x;
+         let z=data.main.humidity;
+         document.getElementById('min').innerHTML=x;
             document.getElementById('max').innerHTML=y;
+            document.getElementById('humid').innerHTML=z;
         })
     });
 
