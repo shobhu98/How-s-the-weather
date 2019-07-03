@@ -5,7 +5,7 @@ function getData() {
 
   // alert(place);
     // let location=place.innerText;
-    let a='http://api.openweathermap.org/data/2.5/weather?q='+place+'&APPID=d74d6767a30fc497ade7171876c1005a';
+    let a='https://api.openweathermap.org/data/2.5/weather?q='+place+'&APPID=d74d6767a30fc497ade7171876c1005a';
      console.log(a);
     let fs=fetch(a);
 
