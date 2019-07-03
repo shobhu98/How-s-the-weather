@@ -91,3 +91,15 @@ h2{
     font-family: "Arial Black";
     color: orangered;
 }
+#tbc{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

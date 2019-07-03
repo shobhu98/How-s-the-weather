@@ -1,1 +1,1 @@
-"# How-s-the-weather" 
+An App that lets you know the weather of various places
