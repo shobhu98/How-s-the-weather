@@ -103,3 +103,8 @@ td{
 table, th, td {
     border: 1px solid black;
 }
+
+#date{
+    color: whitesmoke;
+    margin: 10px auto;
+}
