@@ -1,0 +1,93 @@
+body{
+
+    width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+
+}
+.box{
+    display: block;
+
+}
+.heading{
+    background-color: #000000;
+    color:  #ffff00;
+    font-family: "Bell MT";
+    text-align: center;
+    margin: 0;
+    height: 10vh;
+}
+
+.main{
+    background-color: #000000;
+}
+.main{
+    height: 85vh;
+    margin: 0;
+}
+.place{
+    width: 250px;
+
+}
+.foot{
+    height: 5vh;
+    margin: 0;
+    /*background-color:black ;*/
+}
+.foot{
+    background-color: #343434;
+    color: whitesmoke;
+    text-align: center;
+    /*padding-top: 4px;*/
+}
+
+@media (min-width: 800px) {
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .main{
+        height: 85vh;
+        width: 100%;
+    }
+    .foot{
+        height: 5vh;
+        width: 100%;
+    }
+    .heading{
+        height: 10vh;
+        width: 100%;
+    }
+    
+}
+
+
+::placeholder{
+    background-color: yellow;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+}
+.pl{
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.h{
+    font-size: 24px;
+    margin: 0px auto;
+}
+.l{
+    margin: 0 auto;
+}
+#temp{
+    font-size: 24px;
+    font-family: "Arial Black";
+    color: orangered;
+}
